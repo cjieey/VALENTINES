@@ -1,32 +1,38 @@
 @import url('https://fonts.cdnfonts.com/css/valentine-2');
 @import url('https://fonts.cdnfonts.com/css/kidsland-avenue');
-body{
+
+body {
     background-color: #ffbfcb;
     margin-top: 3rem;
+    font-family: sans-serif; /* Default font family */
 }
-h1{
+
+h1 {
     margin-top: 0;
     text-align: center;
     font-family: 'Valentine', sans-serif;
     font-size: 5rem;
 }
-.container{
-    width: 60%;
+
+.container {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 800px; /* Maximum width to maintain readability */
     margin: 0 auto;
     padding: 2rem;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.p1{
+
+.p1 {
     font-family: 'Kidsland Avenue', sans-serif;
     font-size: 1.7rem;
     margin-left: 2rem;
 }
-.p2{
+
+.p2 {
     font-family: 'Kidsland Avenue', sans-serif;
     font-size: 1.5rem;
-    width: 75%;
-    text-align:justify;
-    margin-left: 5.9rem;
-
+    text-align: justify;
+    margin-left: 2rem; /* Adjusted margin for responsiveness */
+    margin-right: 2rem; /* Adjusted margin for responsiveness */
 }
